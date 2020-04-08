@@ -96,7 +96,7 @@
 							]
 						}
 					);
-				 	$('#add_search').click( function () {
+				 	$('#search_form').submit( function () {
 						var input = $("#search_addr_inp")[0].value
 						var query = "q=" + encodeURIComponent(input);
 						if ($.isNumeric(input)) {
